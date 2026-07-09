@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — [Your Name] · SecureProfile</title>
+<meta name="description" content="Get in touch with [Your Name] — cybersecurity portfolio contact form, GitHub, and LinkedIn.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span class="dot"></span>secureprofile</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">MENU</button>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="skills.html">skills</a>
+      <a href="contact.html" aria-current="page">contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="block" style="padding-top:60px;">
+    <div class="wrap">
+      <div class="eyebrow">get in touch</div>
+      <h2>Contact</h2>
+      <p class="sub">Fields are validated client-side. Hook the form up to a real backend (Formspree, Netlify Forms, or your own API) before going live — see <a href="https://github.com/YOUR_USERNAME/Cybrexa_01_SecureProfile/blob/main/SECURITY.md" target="_blank" rel="noopener" style="color:var(--accent)">Security</a> for notes.</p>
+
+      <div class="corner-frame" style="padding:34px 30px;">
+        <form id="contact-form" class="form-grid" novalidate>
+          <div class="field">
+            <label for="name">Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required minlength="2">
+            <div class="err" role="alert"></div>
+          </div>
+          <div class="field">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <div class="err" role="alert"></div>
+          </div>
+          <div class="field">
+            <label for="message">Message <span class="req">*</span></label>
+            <textarea id="message" name="message" required minlength="10"></textarea>
+            <div class="err" role="alert"></div>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Send message →</button>
+          </div>
+          <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="contact-links">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="mailto:you@example.com">you@example.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>cybrexa.in</span>
+    <span>© 2026 Cybrexa Technologies</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
