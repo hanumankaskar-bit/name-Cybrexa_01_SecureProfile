@@ -55,9 +55,10 @@ Add your GitHub Pages or Netlify link here after deployment.
 
 **Your Name**
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/name-Cybrexa_01_SecureProfile
 
-LinkedIn: https://linkedin.com/in/yourusername
+
+LinkedIn: https://linkedin.com/in/hanumankaskar
 
 ## 📄 License
 
