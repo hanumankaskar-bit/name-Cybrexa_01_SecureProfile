@@ -39,9 +39,20 @@ Cybrexa_01_SecureProfile/
 │── README.md
 │── SECURITY.md
 └── images/
+
+# 1. Create your project directory
+mkdir Cybrexa_03_SecuriFeed
+cd Cybrexa_03_SecuriFeed
+
+# 2. Turn it into a Git repository locally
+git init
+
+# 3. Create the required folders
+mkdir css js data
 ```
 
 ## 🚀 Installation
+
 
 1. Clone the repository.
 2. Open the project folder.
